@@ -144,7 +144,7 @@ a {
 .site-hero {
   background-color: #ccc;
   background-size: cover;
-  background-position: center center;
+  background-position: bottom right;
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden; }
@@ -623,3 +623,10 @@ a {
 .letter-spacing {
   letter-spacing: .2rem;
   color: rgba(255, 255, 255, 0.5) !important; }
+
+
+  .about-image{
+    overflow: hidden;
+    border-radius: 50%;
+    transform: rotateY(180deg)
+  }
