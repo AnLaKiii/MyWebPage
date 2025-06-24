@@ -630,3 +630,26 @@ a {
     border-radius: 50%;
     transform: rotateY(180deg)
   }
+
+  .single-portfolio img{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  
+.ratio {
+    position: relative;
+    width: 100%;
+}
+
+.ratio-1x1 {
+    --bs-aspect-ratio : calc(1 * 100%);
+}
+
+.ratio::before {
+    display: block;
+    padding-top: var(--bs-aspect-ratio);
+    content: "";
+}
