@@ -563,6 +563,9 @@ a {
   justify-content: space-between;
 }
 .site-contact-details, .site-contact-details li {
+  text-align: center;
+  list-style: none;
+  margin-bottom: 20px;
   padding: 0;
   margin: 0; }
 
@@ -571,7 +574,7 @@ a {
   margin-bottom: 20px; }
   .site-contact-details li > span {
     text-align: center;
-    color: #2c3e50;
+    color: #69b4ff;
     letter-spacing: .1em;
     font-size: 12px;
     font-weight: 500;
@@ -648,7 +651,6 @@ a {
     left: 0;
   }
 
-  
 .ratio {
     position: relative;
     width: 100%;
