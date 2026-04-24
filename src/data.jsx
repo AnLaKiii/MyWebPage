@@ -83,8 +83,9 @@ const PROJECTS = [
   },
 ];
 
-// Certifications
+// Certifications — image thumbnails + PDF documents, all shown as cards
 const CERTS = [
+  { type: "pdf", file: "documents/sertifika-1.pdf", title: "Resmi Sertifika", issuer: "Kaan Kürşat Kılıç", cat: "Sertifika" },
   { img: "images/SQL101.png", title: "SQL 101", issuer: "Geleceği Yazanlar", cat: "Veri Tabanı" },
   { img: "images/sql.png", title: "İleri SQL", issuer: "Udemy", cat: "Veri Tabanı" },
   { img: "images/c_c++.png", title: "C / C++ Programlama", issuer: "Udemy", cat: "Yazılım" },
@@ -97,10 +98,9 @@ const CERTS = [
   { img: "images/linux401.png", title: "Linux 401", issuer: "Geleceği Yazanlar", cat: "Linux" },
 ];
 
-// PDF documents (certificates & references) — shown as downloadable PDF cards
+// Reference / documents (separate area below)
 const DOCS = [
-  { pdf: "documents/sertifika-1.pdf", title: "Sertifika", issuer: "Resmi Belge", cat: "Sertifika" },
-  { pdf: "documents/referans-1.pdf", title: "Referans Mektubu", issuer: "Referans", cat: "Referans" },
+  { pdf: "documents/referans-1.pdf", title: "Referans Mektubu", issuer: "Resmi Belge", cat: "Referans" },
 ];
 window.DOCS = DOCS;
 

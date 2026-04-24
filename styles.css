@@ -526,6 +526,48 @@ img { display: block; max-width: 100%; }
 }
 
 /* ---------- docs ---------- */
+.cert-pdf .img {
+  background: var(--bg-3);
+  display: block;
+  position: relative;
+  padding: 0;
+}
+.cert-pdf .img object {
+  width: 100%; height: 100%;
+  display: block;
+  pointer-events: none;
+  background: white;
+}
+.cert-pdf .pdf-fallback {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 10px;
+  color: var(--ink-3);
+  background: var(--bg-3);
+}
+.cert-pdf .pdf-fallback svg { width: 40px; height: 40px; }
+.cert-pdf .pdf-fallback span {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.cert-pdf .pdf-pill {
+  position: absolute;
+  bottom: 10px; right: 10px;
+  padding: 4px 10px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  box-shadow: 0 4px 12px rgba(0,0,0,.2);
+}
+
 .docs-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
