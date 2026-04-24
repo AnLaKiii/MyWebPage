@@ -100,9 +100,7 @@ const CERTS = [
 // PDF documents (certificates & references) — shown as downloadable PDF cards
 const DOCS = [
   { pdf: "documents/sertifika-1.pdf", title: "Sertifika", issuer: "Resmi Belge", cat: "Sertifika" },
-  { pdf: "documents/sertifika-2.pdf", title: "Sertifika", issuer: "Resmi Belge", cat: "Sertifika" },
   { pdf: "documents/referans-1.pdf", title: "Referans Mektubu", issuer: "Referans", cat: "Referans" },
-  { pdf: "documents/referans-2.pdf", title: "Referans Mektubu", issuer: "Referans", cat: "Referans" },
 ];
 window.DOCS = DOCS;
 
